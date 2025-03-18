@@ -1,0 +1,8 @@
+spring:
+  ai:
+    ollama:
+      init:
+        pull-model-strategy: when_missing
+        embedding:
+          additional-models:
+            - nomic-embed-text
