@@ -29,7 +29,7 @@ public class DocumentController {
     @Autowired
     public DocumentController(ChatClient.Builder chatClientBuilder, View error) {
         this.chatClient = chatClientBuilder.build();
-        this.docsReader = new DocsReader();;
+        this.docsReader = new DocsReader();
 
     }
 
